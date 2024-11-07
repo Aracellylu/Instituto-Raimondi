@@ -13,7 +13,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="logo.png" alt="Raimondi Educa Logo" style="height: 50px;"></a>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Raimondi Educa Logo" style="height: 50px;"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon text-white"></span>
             </button>
@@ -289,7 +289,7 @@
                 <!-- Career Card -->
                 <div class="col-md-4">
                     <div class="career-card" data-bs-toggle="modal" data-bs-target="#careerModal1">
-                        <img src="carrera1.png" alt="Administración">
+                        <img src="img/carrera1.png" alt="Administración">
                         <div class="career-info">
                             <p class="career-title">ADMINISTRACIÓN</p>
                             <p>Toma control de tu propio crecimiento</p>
@@ -298,7 +298,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="career-card" data-bs-toggle="modal" data-bs-target="#careerModal2">
-                        <img src="carrera2.png" alt="Diseño Gráfico">
+                        <img src="img/carrera2.png" alt="Diseño Gráfico">
                         <div class="career-info">
                             <p class="career-title">DISEÑO GRÁFICO</p>
                             <p>Genera confianza en tu equipo</p>
@@ -307,7 +307,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="career-card" data-bs-toggle="modal" data-bs-target="#careerModal3">
-                        <img src="carrera3.png" alt="Recursos Humanos">
+                        <img src="img/carrera3.png" alt="Recursos Humanos">
                         <div class="career-info">
                             <p class="career-title">RECURSOS HUMANOS</p>
                             <p>Da y recibe retroalimentación</p>
@@ -395,7 +395,7 @@
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="course-card">
-                        <img src="1.png" alt="Excel Básico - Office 365">
+                        <img src="img/1.png" alt="Excel Básico - Office 365">
                         <div class="course-info">
                             <p class="course-title">EXCEL BÁSICO - OFFICE 365</p>
                             <p>Incrementa tu impacto</p>
@@ -404,7 +404,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="course-card">
-                        <img src="2.png" alt="Microsoft Office 365 Intermedio">
+                        <img src="img/2.png" alt="Microsoft Office 365 Intermedio">
                         <div class="course-info">
                             <p class="course-title">MICROSOFT OFFICE 365 INTERMEDIO</p>
                             <p>Empodera a los demás</p>
@@ -413,7 +413,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="course-card">
-                        <img src="3.png" alt="Excel para los Negocios - Office 365">
+                        <img src="img/3.png" alt="Excel para los Negocios - Office 365">
                         <div class="course-info">
                             <p class="course-title">EXCEL PARA LOS NEGOCIOS - OFFICE 365</p>
                             <p>Liderazgo sostenible</p>
@@ -427,7 +427,7 @@
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="course-card">
-                        <img src="4.png" alt="Operador de Aduanas">
+                        <img src="img/4.png" alt="Operador de Aduanas">
                         <div class="course-info">
                             <p class="course-title">OPERADOR DE ADUANAS</p>
                             <p>Incrementa tu impacto</p>
@@ -436,7 +436,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="course-card">
-                        <img src="5.png" alt="Importación desde China">
+                        <img src="img/5.png" alt="Importación desde China">
                         <div class="course-info">
                             <p class="course-title">IMPORTACIÓN DESDE CHINA</p>
                             <p>Empodera a los demás</p>
@@ -445,7 +445,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="course-card">
-                        <img src="6.png" alt="Transporte Aduanero">
+                        <img src="img/6.png" alt="Transporte Aduanero">
                         <div class="course-info">
                             <p class="course-title">TRANSPORTE ADUANERO</p>
                             <p>Liderazgo sostenible</p>
@@ -459,7 +459,7 @@
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="course-card">
-                        <img src="7.png" alt="Coctelería">
+                        <img src="img/7.png" alt="Coctelería">
                         <div class="course-info">
                             <p class="course-title">COCTELERÍA</p>
                             <p>Incrementa tu impacto</p>
@@ -468,7 +468,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="course-card">
-                        <img src="8.png" alt="Bartender Profesional">
+                        <img src="img/8.png" alt="Bartender Profesional">
                         <div class="course-info">
                             <p class="course-title">BARTENDER PROFESIONAL</p>
                             <p>Empodera a los demás</p>
@@ -477,7 +477,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="course-card">
-                        <img src="9.png" alt="Pastelería">
+                        <img src="img/9.png" alt="Pastelería">
                         <div class="course-info">
                             <p class="course-title">PASTELERÍA</p>
                             <p>Liderazgo sostenible</p>
@@ -496,7 +496,7 @@
                 <!-- Graduate Card -->
                 <div class="col-md-6">
                     <div class="graduate-card">
-                        <img src="img1.png" alt="Eduardo Games" class="graduate-image">
+                        <img src="img/img1.png" alt="Eduardo Games" class="graduate-image">
                         <div class="graduate-info">
                             <p class="graduate-name">EDUARDO GAMES</p>
                             <p>Ganó un premio a nivel internacional y está logrando más cosas de las que hablaremos y profundizaremos más en el artículo...</p>
@@ -506,7 +506,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="graduate-card">
-                        <img src="img2.png" alt="Cursos Cortos" class="graduate-image">
+                        <img src="img/img2.png" alt="Cursos Cortos" class="graduate-image">
                         <div class="graduate-info">
                             <p class="graduate-name">GIMENA CUEVAS PRADERA</p>
                             <p>Ganó un premio a nivel internacional y está logrando más cosas de las que hablaremos y profundizaremos más en el artículo...</p>
@@ -516,7 +516,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="graduate-card">
-                        <img src="img3.png" alt="Arturo Carrión" class="graduate-image">
+                        <img src="img/img3.png" alt="Arturo Carrión" class="graduate-image">
                         <div class="graduate-info">
                             <p class="graduate-name">ARTURO CARRIÓN</p>
                             <p>Ganó un premio a nivel internacional y está logrando más cosas de las que hablaremos y profundizaremos más en el artículo...</p>
@@ -526,7 +526,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="graduate-card">
-                        <img src="img4.png" alt="Talleres de Fitness" class="graduate-image">
+                        <img src="img/img4.png" alt="Talleres de Fitness" class="graduate-image">
                         <div class="graduate-info">
                             <p class="graduate-name">MARIA ESPINOZA DE LAS CASAS</p>
                             <p>Ganó un premio a nivel internacional y está logrando más cosas de las que hablaremos y profundizaremos más en el artículo...</p>
@@ -536,7 +536,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="graduate-card">
-                        <img src="img5.png" alt="Sofia Valladarez" class="graduate-image">
+                        <img src="img/img5.png" alt="Sofia Valladarez" class="graduate-image">
                         <div class="graduate-info">
                             <p class="graduate-name">SOFIA VALLADAREZ</p>
                             <p>Ganó un premio a nivel internacional y está logrando más cosas de las que hablaremos y profundizaremos más en el artículo...</p>
@@ -546,7 +546,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="graduate-card">
-                        <img src="img6.png" alt="Camila de las Casas Pampañaupa" class="graduate-image">
+                        <img src="img/img6.png" alt="Camila de las Casas Pampañaupa" class="graduate-image">
                         <div class="graduate-info">
                             <p class="graduate-name">CAMILA DE LAS CASAS PAMPÁÑAUPA</p>
                             <p>Ganó un premio a nivel internacional y está logrando más cosas de las que hablaremos y profundizaremos más en el artículo...</p>
@@ -567,7 +567,7 @@
             <div class="row">
                 <!-- Logo -->
                 <div class="col-md-4 footer-logo text-center text-md-start">
-                    <img src="logo.png" alt="Logo de la institución">
+                    <img src="img/logo.png" alt="Logo de la institución">
                 </div>
                 <!-- Enlaces de navegación -->
                 <div class="col-md-4 footer-links text-center my-3 my-md-0">
@@ -615,63 +615,63 @@
                 <div class="modal-body">
                     <!-- Lista de Profesores en Columna -->
                     <div class="d-flex align-items-center mb-3">
-                        <img src="img7.png" alt="Profesor 1" class="professor-img">
+                        <img src="img/img7.png" alt="Profesor 1" class="professor-img">
                         <div>
                             <h6>Profesor 1</h6>
                             <p>Especialista en Matemáticas</p>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
-                        <img src="img8.png" alt="Profesor 2" class="professor-img">
+                        <img src="img/img8.png" alt="Profesor 2" class="professor-img">
                         <div>
                             <h6>Profesor 2</h6>
                             <p>Experto en Ciencias</p>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
-                        <img src="img9.png" alt="Profesor 3" class="professor-img">
+                        <img src="img/img9.png" alt="Profesor 3" class="professor-img">
                         <div>
                             <h6>Profesor 3</h6>
                             <p>Maestro en Historia</p>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
-                        <img src="img10.png" alt="Profesor 3" class="professor-img">
+                        <img src="img/img10.png" alt="Profesor 3" class="professor-img">
                         <div>
                             <h6>Profesor 3</h6>
                             <p>Maestro en Historia</p>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
-                        <img src="img11.png" alt="Profesor 3" class="professor-img">
+                        <img src="img/img11.png" alt="Profesor 3" class="professor-img">
                         <div>
                             <h6>Profesor 3</h6>
                             <p>Maestro en Historia</p>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
-                        <img src="img12.png" alt="Profesor 3" class="professor-img">
+                        <img src="img/img12.png" alt="Profesor 3" class="professor-img">
                         <div>
                             <h6>Profesor 3</h6>
                             <p>Maestro en Historia</p>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
-                        <img src="img7.png" alt="Profesor 1" class="professor-img">
+                        <img src="img/img7.png" alt="Profesor 1" class="professor-img">
                         <div>
                             <h6>Profesor 1</h6>
                             <p>Especialista en Matemáticas</p>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
-                        <img src="img8.png" alt="Profesor 2" class="professor-img">
+                        <img src="img/img8.png" alt="Profesor 2" class="professor-img">
                         <div>
                             <h6>Profesor 2</h6>
                             <p>Experto en Ciencias</p>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
-                        <img src="img9.png" alt="Profesor 3" class="professor-img">
+                        <img src="img/img9.png" alt="Profesor 3" class="professor-img">
                         <div>
                             <h6>Profesor 3</h6>
                             <p>Maestro en Historia</p>
@@ -700,7 +700,7 @@
                     <div class="timeline">
                         <div class="timeline-item">
                             <div class="timeline-image">
-                                <img src="13.png" alt="1995" class="img-circle">
+                                <img src="img/13.png" alt="1995" class="img-circle">
                             </div>
                             <div class="timeline-content">
                                 <h5>1995 - Fundación del Instituto</h5>
@@ -709,7 +709,7 @@
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-image">
-                                <img src="14.png" alt="2000" class="img-circle">
+                                <img src="img/14.png" alt="2000" class="img-circle">
                             </div>
                             <div class="timeline-content">
                                 <h5>2000 - Apertura del Primer Campus</h5>
@@ -718,7 +718,7 @@
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-image">
-                                <img src="15.png" alt="2010" class="img-circle">
+                                <img src="img/15.png" alt="2010" class="img-circle">
                             </div>
                             <div class="timeline-content">
                                 <h5>2010 - Reconocimiento Nacional</h5>
@@ -727,7 +727,7 @@
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-image">
-                                <img src="16.png" alt="2015" class="img-circle">
+                                <img src="img/16.png" alt="2015" class="img-circle">
                             </div>
                             <div class="timeline-content">
                                 <h5>2015 - Expansión Internacional</h5>
@@ -736,7 +736,7 @@
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-image">
-                                <img src="17.png" alt="2020" class="img-circle">
+                                <img src="img/17.png" alt="2020" class="img-circle">
                             </div>
                             <div class="timeline-content">
                                 <h5>2020 - Innovación en Educación Virtual</h5>

@@ -19,7 +19,7 @@
     justify-content: center; /* Centra el contenido horizontalmente */
     gap: 470px; /* Ajusta el espacio entre el texto y el formulario */
     padding: 50px;
-    background: url('fondo1.png') no-repeat center center;
+    background: url('img/fondo1.png') no-repeat center center;
     background-size: cover;
     height: 100vh;
     color: white;
