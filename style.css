@@ -12,32 +12,99 @@
     color: black;
     background-color: white;
 }
+
+
+/* Ajuste del ancho y centrado del contenido */
 .hero-section {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center; /* Centra el contenido horizontalmente */
-    gap: 470px; /* Ajusta el espacio entre el texto y el formulario */
+    justify-content: center;
     padding: 50px;
     background: url('img/fondo1.png') no-repeat center center;
     background-size: cover;
     height: 100vh;
     color: white;
     text-align: center;
+    flex-direction: row; /* Mantiene el contenido en fila en pantallas grandes */
 }
+
+/* Estilo para el overlay */
 .overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Capa negra con opacidad */
-    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1; /* Asegura que el overlay esté detrás del contenido pero sobre el fondo */
 }
+
+/* Ajuste del ancho máximo para el formulario y el texto en pantallas grandes */
 .hero-content, .form-container {
     position: relative;
-    z-index: 2;
+    z-index: 2; /* Coloca el contenido por encima del overlay */
 }
+
+.hero-content {
+    max-width: 600px; /* Ajusta el ancho máximo del texto */
+    margin-right: 400px; /* Espacio entre el texto y el formulario */
+}
+
+.form-container {
+    max-width: 350px; /* Ajusta el ancho máximo del formulario */
+    padding: 20px;
+    margin-left: 20px;
+}
+
+/* Media query para pantallas medianas */
+@media (max-width: 992px) {
+    .hero-content {
+        margin-right: 20px; /* Ajusta el margen para pantallas medianas */
+    }
+
+    .form-container {
+        margin-left: 20px;
+        max-width: 90%; /* Limita el ancho en pantallas medianas */
+    }
+}
+
+/* Media query para pantallas pequeñas (ancho de 768px o menos) */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .hero-content, .form-container {
+        width: 100%; /* Ocupa el ancho completo */
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .form-container {
+        max-width: 400px; /* Limita el ancho del formulario */
+    }
+}
+
+/* Media query para pantallas muy pequeñas (ancho de 576px o menos) */
+@media (max-width: 576px) {
+    .hero-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-container {
+        width: 100%;
+        max-width: 350px; /* Ajusta el ancho en pantallas muy pequeñas */
+        padding: 20px;
+    }
+}
+
+
 .form-container {
     max-width: 600px;
     padding: 20px;
@@ -194,6 +261,32 @@
 .more-link:hover {
     text-decoration: underline;
 }
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 576px) {
+    .graduate-card {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center; /* Centra los elementos */
+        text-align: center; /* Centra el texto */
+        padding: 20px;
+    }
+
+    .graduate-image {
+        margin-right: 0; /* Quita el margen derecho */
+        margin-bottom: 10px; /* Añade margen inferior para separar de la información */
+        width: 80px; /* Reduce el tamaño de la imagen en pantallas pequeñas */
+        height: 80px;
+    }
+
+    .graduate-info {
+        text-align: center; /* Centra el texto en pantallas pequeñas */
+    }
+
+    .graduate-name {
+        font-size: 1.1em; /* Ajusta el tamaño de la fuente */
+    }
+}
+
 .footer {
     background-color: #111;
     color: #ccc;
